@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding :0;
+}
+
+body {
+    background-image: linear-gradient(rgb(43, 230, 43),rgb(65, 241, 241));
+}
+
+h2 {
+    font-style: italic;
+}
+
+footer {
+    font-weight: bold;
+    font-style: italic;
+}
+
+span {
+    color: red;
+}
+
+.messages {
+    border: 3px solid red;
+    color: red;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.debug {
+    color:red;
+    background-color: yellow;
+    padding: 5px;
+}
+

@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(182, 203, 210);
+    padding: 10px;
+}
+
+a{
+    color: black;
+    margin-left: 30px;
+}
+
+a:focus, a:hover{
+    color: rgb(50, 47, 255);
+}
+
+h2 {
+    cursor: pointer;
+    background: url(../img/plus.png) no-repeat left center;
+}
+
+h2.minus {
+    background: url(../img/minus.png) no-repeat left center;
+}
+
+div{
+    display: none;
+}
+
+div.open{
+    display: block;
+}
+
+
+#nav_list{
+	background-color: rgb(120, 212, 208);
+	border-radius: 10px 20px 0 20px;
+	box-shadow: 3px 3px 4px 4px;
+}
+#nav_menu ul{
+	list-style-type: none;
+	padding: auto;
+	text-align: center;
+	
+	/*border: 2px solid black;
+	border-radius: 10px 20px 10px 20px;*/
+	
+}
+#nav_menu ul li{
+	display: inline;
+	padding: auto;
+	margin-inline-end: 3em;
+}
+#nav_menu ul li a:hover,#nav_menu ul li a:focus{
+	background-color: rgb(47, 255, 175);
+
+}
+#nav_menu ul li a{
+	text-align: center;
+	display: inline-table;
+	width: 150px;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: azure;
+	color: black;
+	font-weight: bold;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Holiday Slide Show</title>
+    <link rel="stylesheet" href="css/03-photos.css">
+</head>
+<body>
+
+    
+    <main >
+        <h1>Holiday Slide Show</h1>
+
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">Slide Show</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="../js-learn/" class="menu" >Learn</a></li>
+                <li class="active" class="menu"><a href="../js-learn/03-photo-gallery.html" class="menu">Gallery</a></li>
+                <li class="active"><a href="../../16/" class="menu">Home</a></li>
+              </ul>
+              <form class="navbar-form navbar-left" action="/action_page.php">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="It's not working yet" name="search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </div>
+          </nav>
+
+
+        <ul id="image_list" >
+            <li><a href="my_images/bus-barcelona.jpg" title="This is me, inside a bus in Barcelona."></a></li>
+            <li><a href="my_images/catedral01.jpg" title="This is me in front of the cathedral."></a></li>
+            <li><a href="my_images/catedral02.jpg" title="Also me in front of the cathedral."></a></li>
+            <li><a href="my_images/madrid.jpg" title="This is me in my first day in Madrid."></a></li>
+            <li><a href="my_images/centenario.jpg" title="FC Barcelona's 100th aniversary monument."></a></li>
+            <li><a href="my_images/kubala.jpg" title="L. Kubala. A legent who played for FC Barcelona in the 1920s."></a></li>
+            <li><a href="my_images/di-estefano.jpg" title="Stadium Alfredo Di Estefano, Madrid, Spain."></a></li>
+            <li><a href="my_images/first-day.jpg" title="Madrid, Spain."></a></li>
+            <li><a href="my_images/sol.jpg" title="'Plaza de Castilla' in Madrid, Spain."></a></li>
+            <li><a href="my_images/johan-cruyf.jpg" title="Johan Cruyf. A legent for FC Barcelona both as player and manager."></a></li>
+            
+        </ul>
+
+        <p>
+            <input type="button" id="start" class="buttons" value="Start">
+            <input type="button" id="pause" class="buttons" value="Pause" disabled="true">
+        </p>        
+    
+        <p><img id="main_image" class="center" src="my_images/fcb-gates.jpg" alt="Me at the Spotify Camp Nou"></p>
+        <h2 id="caption">FC Barcelona Spotify Camp-nou</h2>    
+
+        <script src="js/slide-show.js"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </main>  
+</body>
+</html>

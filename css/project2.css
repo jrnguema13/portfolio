@@ -1,0 +1,22 @@
+body {
+    color: rgb(27, 25, 22);
+	margin: 2em;
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    background: linear-gradient(to left, #9a5b36, #1e8c90 );
+} 
+.carousel-inner .item img {
+    height: 100%;
+    width: 100% !important;
+}
+
+.carrousel-caption{
+    width:700px; margin-left: 20%; margin-right: 25%;
+}
+.carrousel-item{
+    margin-left: 20%; margin-right: 25%;
+}
+.h1center{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
